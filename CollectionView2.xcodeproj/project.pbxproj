@@ -13,6 +13,9 @@
 		0A2C6A0B218BF17B00584186 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A2C6A0A218BF17B00584186 /* Assets.xcassets */; };
 		0A2C6A0E218BF17B00584186 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A2C6A0C218BF17B00584186 /* LaunchScreen.storyboard */; };
 		0A2C6A18218BF5F500584186 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2C6A17218BF5F500584186 /* CollectionViewCell.swift */; };
+		0A811526218C218C00C5426A /* Audiobook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A811525218C218C00C5426A /* Audiobook.swift */; };
+		0A811528218C24A300C5426A /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A811527218C24A300C5426A /* APIClient.swift */; };
+		0A81152A218C293B00C5426A /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A811529218C293B00C5426A /* DataStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		0A2C6A0D218BF17B00584186 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0A2C6A0F218BF17B00584186 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0A2C6A17218BF5F500584186 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		0A811525218C218C00C5426A /* Audiobook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Audiobook.swift; sourceTree = "<group>"; };
+		0A811527218C24A300C5426A /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		0A811529218C293B00C5426A /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,9 @@
 				0A2C6A0C218BF17B00584186 /* LaunchScreen.storyboard */,
 				0A2C6A0F218BF17B00584186 /* Info.plist */,
 				0A2C6A17218BF5F500584186 /* CollectionViewCell.swift */,
+				0A811525218C218C00C5426A /* Audiobook.swift */,
+				0A811529218C293B00C5426A /* DataStore.swift */,
+				0A811527218C24A300C5426A /* APIClient.swift */,
 			);
 			path = CollectionView2;
 			sourceTree = "<group>";
@@ -139,8 +148,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A2C6A06218BF17900584186 /* ViewController.swift in Sources */,
+				0A81152A218C293B00C5426A /* DataStore.swift in Sources */,
 				0A2C6A04218BF17900584186 /* AppDelegate.swift in Sources */,
 				0A2C6A18218BF5F500584186 /* CollectionViewCell.swift in Sources */,
+				0A811528218C24A300C5426A /* APIClient.swift in Sources */,
+				0A811526218C218C00C5426A /* Audiobook.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
